@@ -3,11 +3,11 @@ It is a command line utility to run timed quiz. Questions and answers can be pro
 # Usage 
 timed-quiz.exe  --csv="problems.csv" --limit=3
 
-  -csv string
+  --csv string
   
         csv file in format for 'question,answer'.  (default "problems.csv")
         
-  -limit int
+  --limit int
   
         the time limit for quiz in sec (default 30)
         
